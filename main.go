@@ -9,6 +9,6 @@ import (
 
 func main() {
 	app.Run("tag", func(w *unison.Window) {
-		tag.New().Layout(w.Content())
+		w.Content().AddChild(tag.New().Layout())
 	})
 }
