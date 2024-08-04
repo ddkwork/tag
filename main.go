@@ -3,8 +3,8 @@ package main
 import (
 	"tag"
 
-	"github.com/ddkwork/app"
-	"github.com/richardwilkes/unison"
+	"github.com/ddkwork/unison"
+	"github.com/ddkwork/unison/app"
 )
 
 func main() {
